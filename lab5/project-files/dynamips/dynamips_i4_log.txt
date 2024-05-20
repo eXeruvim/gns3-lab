@@ -1,0 +1,12 @@
+2024-05-20T20:56:12.034Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2024-05-20T20:56:12.034Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56025.
+2024-05-20T20:56:12.043Z HYPERVISOR: exec_cmd: hypervisor version 
+2024-05-20T20:56:12.043Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/exeruvim/GNS3/projects/lab5/project-files/dynamips 
+2024-05-20T20:56:12.043Z GENERAL: working_dir=/home/exeruvim/GNS3/projects/lab5/project-files/dynamips
+2024-05-20T20:56:12.043Z HYPERVISOR: exec_cmd: ethsw create Switch2 
+2024-05-20T21:05:59.410Z HYPERVISOR: exec_cmd: nio create_udp udp-1942a01d-7f3c-4a51-9aec-d512542845be 10037 127.0.0.1 10036 
+2024-05-20T21:05:59.410Z HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-1942a01d-7f3c-4a51-9aec-d512542845be 
+2024-05-20T21:05:59.412Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1942a01d-7f3c-4a51-9aec-d512542845be 1 
+2024-05-20T21:06:02.852Z HYPERVISOR: exec_cmd: nio create_udp udp-42e990a2-e2a2-4021-a14d-ce4f06b07012 10038 127.0.0.1 10039 
+2024-05-20T21:06:02.852Z HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-42e990a2-e2a2-4021-a14d-ce4f06b07012 
+2024-05-20T21:06:02.859Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-42e990a2-e2a2-4021-a14d-ce4f06b07012 1 
