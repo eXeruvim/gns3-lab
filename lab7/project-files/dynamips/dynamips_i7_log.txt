@@ -1,0 +1,15 @@
+2024-05-20T22:50:38.744Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2024-05-20T22:50:38.744Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56743.
+2024-05-20T22:50:38.744Z HYPERVISOR: exec_cmd: hypervisor version 
+2024-05-20T22:50:38.744Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/exeruvim/GNS3/projects/lab7/project-files/dynamips 
+2024-05-20T22:50:38.744Z GENERAL: working_dir=/home/exeruvim/GNS3/projects/lab7/project-files/dynamips
+2024-05-20T22:50:38.744Z HYPERVISOR: exec_cmd: ethsw create Switch1 
+2024-05-20T22:50:46.713Z HYPERVISOR: exec_cmd: nio create_udp udp-9e892199-a16f-4444-b946-5723614ca497 10001 127.0.0.1 10000 
+2024-05-20T22:50:46.713Z HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-9e892199-a16f-4444-b946-5723614ca497 
+2024-05-20T22:50:46.723Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-9e892199-a16f-4444-b946-5723614ca497 1 
+2024-05-20T22:50:52.756Z HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-9e892199-a16f-4444-b946-5723614ca497 
+2024-05-20T22:50:52.761Z HYPERVISOR: exec_cmd: nio delete udp-9e892199-a16f-4444-b946-5723614ca497 
+2024-05-20T22:50:52.780Z HYPERVISOR: exec_cmd: ethsw delete Switch1 
+2024-05-20T22:50:52.780Z HYPERVISOR: exec_cmd: hypervisor stop 
+2024-05-20T22:50:53.259Z HYPERVISOR: Stopped.
+2024-05-20T22:50:53.259Z GENERAL: reset done.
