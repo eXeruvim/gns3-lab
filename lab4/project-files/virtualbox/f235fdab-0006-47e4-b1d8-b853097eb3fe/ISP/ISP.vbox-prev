@@ -76,13 +76,13 @@
           <DisabledModes>
             <NAT localhost-reachable="true"/>
             <InternalNetwork name="intnet"/>
+            <GenericInterface driver="UDPTunnel">
+              <Property name="dest" value="127.0.0.1"/>
+              <Property name="dport" value="10007"/>
+              <Property name="sport" value="10006"/>
+            </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <GenericInterface driver="UDPTunnel">
-            <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10007"/>
-            <Property name="sport" value="10006"/>
-          </GenericInterface>
         </Adapter>
         <Adapter slot="1" enabled="true" MACAddress="0800272488EB" cable="false" type="82540EM">
           <DisabledModes>
