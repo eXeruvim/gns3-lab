@@ -87,13 +87,13 @@
         <Adapter slot="1" enabled="true" MACAddress="0800270664AD" cable="false" type="82540EM">
           <DisabledModes>
             <InternalNetwork name="intnet"/>
+            <GenericInterface driver="UDPTunnel">
+              <Property name="dest" value="127.0.0.1"/>
+              <Property name="dport" value="10013"/>
+              <Property name="sport" value="10012"/>
+            </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <GenericInterface driver="UDPTunnel">
-            <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10013"/>
-            <Property name="sport" value="10012"/>
-          </GenericInterface>
         </Adapter>
         <Adapter slot="2" enabled="true" MACAddress="080027A5B8C2" cable="false" type="82540EM">
           <DisabledModes>

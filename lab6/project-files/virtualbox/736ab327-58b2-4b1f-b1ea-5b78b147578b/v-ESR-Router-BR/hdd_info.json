@@ -1,0 +1,8 @@
+[
+    {
+        "hdd": "{2224be08-1486-4786-9102-82ac7e575bd8}.vdi",
+        "controller": "IDE",
+        "port": "1",
+        "device": "0"
+    }
+]

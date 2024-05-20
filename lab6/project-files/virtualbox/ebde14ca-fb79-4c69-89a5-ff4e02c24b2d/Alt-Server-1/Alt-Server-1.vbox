@@ -130,9 +130,6 @@
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
           <AttachedDevice passthrough="false" type="DVD" hotpluggable="false" port="0" device="0"/>
-          <AttachedDevice type="HardDisk" hotpluggable="false" port="1" device="0">
-            <Image uuid="{e65709b4-5226-4f8f-9362-8f8ac4d0360b}"/>
-          </AttachedDevice>
         </StorageController>
       </StorageControllers>
     </Hardware>
