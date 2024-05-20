@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-linux">
-  <Machine uuid="{a8bb9d45-62c0-4099-8a2a-ac5e9a77e21c}" name="v-ESR-Router-BR" OSType="Linux24_64" currentSnapshot="{bd0c9362-3993-42c5-b627-566ac55c7124}" snapshotFolder="Snapshots" lastStateChange="2024-05-20T20:58:11Z">
+  <Machine uuid="{a8bb9d45-62c0-4099-8a2a-ac5e9a77e21c}" name="v-ESR-Router-BR" OSType="Linux24_64" currentSnapshot="{bd0c9362-3993-42c5-b627-566ac55c7124}" snapshotFolder="Snapshots" lastStateChange="2024-05-20T21:23:03Z">
     <ExtraData>
       <ExtraDataItem name="GNS3/Clone" value="yes"/>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
@@ -72,28 +72,28 @@
         </Controllers>
       </USB>
       <Network>
-        <Adapter slot="0" enabled="true" MACAddress="080027A65891" type="82540EM">
+        <Adapter slot="0" enabled="true" MACAddress="080027A65891" cable="false" type="82540EM">
           <DisabledModes>
             <NAT localhost-reachable="true"/>
             <InternalNetwork name="intnet"/>
+            <GenericInterface driver="UDPTunnel">
+              <Property name="dest" value="127.0.0.1"/>
+              <Property name="dport" value="10005"/>
+              <Property name="sport" value="10004"/>
+            </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <GenericInterface driver="UDPTunnel">
-            <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10005"/>
-            <Property name="sport" value="10004"/>
-          </GenericInterface>
         </Adapter>
         <Adapter slot="1" enabled="true" MACAddress="0800275E98C0" cable="false" type="82540EM">
           <DisabledModes>
             <InternalNetwork name="intnet"/>
+            <GenericInterface driver="UDPTunnel">
+              <Property name="dest" value="127.0.0.1"/>
+              <Property name="dport" value="10011"/>
+              <Property name="sport" value="10010"/>
+            </GenericInterface>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <GenericInterface driver="UDPTunnel">
-            <Property name="dest" value="127.0.0.1"/>
-            <Property name="dport" value="10011"/>
-            <Property name="sport" value="10010"/>
-          </GenericInterface>
         </Adapter>
         <Adapter slot="2" enabled="true" MACAddress="080027A82451" cable="false" type="82540EM">
           <DisabledModes>
@@ -119,16 +119,13 @@
         </Adapter>
       </Network>
       <UART>
-        <Port slot="0" enabled="true" IOBase="0x3f8" IRQ="4" server="true" path="/tmp/gns3_vbox/a7e7982a-e7eb-434b-aef8-5b6748d11678" hostMode="HostPipe"/>
+        <Port slot="0" enabled="false" IOBase="0x3f8" IRQ="4" server="true" path="/tmp/gns3_vbox/a7e7982a-e7eb-434b-aef8-5b6748d11678" hostMode="HostPipe"/>
       </UART>
       <AudioAdapter codec="AD1980" useDefault="true" driver="ALSA" enabled="true" enabledOut="true"/>
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
         <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="ru_RU" timestamp="1716238691909839000" flags="RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxRev" value="162988" timestamp="1716238691886504002" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVer" value="7.0.18" timestamp="1716238691886504000" flags="TRANSIENT, RDONLYGUEST"/>
-        <GuestProperty name="/VirtualBox/HostInfo/VBoxVerExt" value="7.0.18" timestamp="1716238691886504001" flags="TRANSIENT, RDONLYGUEST"/>
         <GuestProperty name="NameInGNS3" value="v-ESR-Router-BR" timestamp="1716238692077927000" flags=""/>
         <GuestProperty name="ProjectDirInGNS3" value="/home/exeruvim/GNS3/projects/lab5/project-files/virtualbox/a7e7982a-e7eb-434b-aef8-5b6748d11678" timestamp="1716238692143410000" flags=""/>
       </GuestProperties>
