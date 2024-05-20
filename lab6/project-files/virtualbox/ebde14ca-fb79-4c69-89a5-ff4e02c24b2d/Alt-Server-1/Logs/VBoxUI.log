@@ -1,0 +1,41 @@
+00:00:00.186354 VirtualBox GUI (separate) 7.0.18 r162988 linux.amd64 (May  2 2024 10:35:36) release log
+00:00:00.186355 Log opened 2024-05-20T22:28:02.336889000Z
+00:00:00.186355 Build Type: release
+00:00:00.186356 OS Product: Linux
+00:00:00.186357 OS Release: 6.8.9-300.fc40.x86_64
+00:00:00.186357 OS Version: #1 SMP PREEMPT_DYNAMIC Thu May  2 18:59:06 UTC 2024
+00:00:00.186371 DMI Product Name: B550 AORUS PRO AC
+00:00:00.186379 DMI Product Version: Default string
+00:00:00.186383 Firmware type: UEFI
+00:00:00.186499 Secure Boot: Disabled
+00:00:00.186542 Host RAM: 31983MB (31.2GB) total, 22372MB (21.8GB) available
+00:00:00.186544 Executable: /usr/lib/virtualbox/VirtualBoxVM
+00:00:00.186544 Process ID: 34626
+00:00:00.186545 Package type: LINUX_64BITS_FEDORA_40
+00:00:00.186946 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.611983 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.641092 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:00.650094 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:00.676842 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.677245 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.677631 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.678066 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.698847 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.698864 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:00.709533 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:00.709588 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:00.709838 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:00.709848 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.710419 GUI: HID LEDs sync is not supported on this platform
+00:00:00.747575 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 0x0 x 1440x2560
+00:00:00.747599 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1440x32 x 2560x1408
+00:00:00.769655 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:01.068654 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:24.978635 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:32.416195 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:19:14.758836 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:20:02.332473 GUI: Request for close-action to detach GUI.
+00:20:02.332487 GUI: Detaching UI..
+00:20:02.332491 GUI: Passing request to close Runtime UI from UI session to UI machine.
+00:20:02.335156 GUI: UICommon: Handling aboutToQuit request..
+00:20:03.373036 GUI: UICommon: aboutToQuit request handled!
