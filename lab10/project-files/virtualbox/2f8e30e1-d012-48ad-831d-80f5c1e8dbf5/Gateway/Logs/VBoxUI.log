@@ -1,0 +1,40 @@
+00:00:00.188788 VirtualBox GUI (separate) 7.0.18 r162988 linux.amd64 (May  2 2024 10:35:36) release log
+00:00:00.188790 Log opened 2024-05-21T20:31:53.231445000Z
+00:00:00.188791 Build Type: release
+00:00:00.188792 OS Product: Linux
+00:00:00.188793 OS Release: 6.8.9-300.fc40.x86_64
+00:00:00.188793 OS Version: #1 SMP PREEMPT_DYNAMIC Thu May  2 18:59:06 UTC 2024
+00:00:00.188811 DMI Product Name: B550 AORUS PRO AC
+00:00:00.188818 DMI Product Version: Default string
+00:00:00.188822 Firmware type: UEFI
+00:00:00.188872 Secure Boot: Disabled
+00:00:00.188897 Host RAM: 31983MB (31.2GB) total, 22154MB (21.6GB) available
+00:00:00.188899 Executable: /usr/lib/virtualbox/VirtualBoxVM
+00:00:00.188899 Process ID: 24621
+00:00:00.188899 Package type: LINUX_64BITS_FEDORA_40
+00:00:00.189344 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.588947 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.620601 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:00.630784 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:00.657636 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.658080 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.658468 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.658885 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.680088 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.680103 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:00.700001 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:00.700036 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:00.700192 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:00.700199 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.700768 GUI: HID LEDs sync is not supported on this platform
+00:00:00.730750 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 0x0 x 1440x2560
+00:00:00.730768 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1440x32 x 2560x1408
+00:00:00.748131 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:35.779663 GUI: Request for close-action to power VM off.
+00:20:35.779777 GUI: Powering VM off..
+00:20:35.784558 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:20:35.837235 GUI: Passing request to close Runtime UI from UI session to UI machine.
+00:20:35.838120 GUI: UICommon: Handling aboutToQuit request..
+00:20:37.286115 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:20:37.286875 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:20:37.293240 GUI: UICommon: aboutToQuit request handled!
