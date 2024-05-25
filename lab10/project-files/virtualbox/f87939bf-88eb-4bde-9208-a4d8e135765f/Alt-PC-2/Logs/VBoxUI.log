@@ -1,0 +1,49 @@
+00:00:00.217572 VirtualBox GUI (separate) 7.0.18 r162988 linux.amd64 (May  2 2024 10:35:36) release log
+00:00:00.217574 Log opened 2024-05-25T12:13:44.882226000Z
+00:00:00.217574 Build Type: release
+00:00:00.217576 OS Product: Linux
+00:00:00.217576 OS Release: 6.8.9-300.fc40.x86_64
+00:00:00.217577 OS Version: #1 SMP PREEMPT_DYNAMIC Thu May  2 18:59:06 UTC 2024
+00:00:00.217596 DMI Product Name: B550 AORUS PRO AC
+00:00:00.217605 DMI Product Version: Default string
+00:00:00.217610 Firmware type: UEFI
+00:00:00.217669 Secure Boot: Disabled
+00:00:00.217700 Host RAM: 31983MB (31.2GB) total, 21144MB (20.6GB) available
+00:00:00.217702 Executable: /usr/lib/virtualbox/VirtualBoxVM
+00:00:00.217702 Process ID: 17908
+00:00:00.217702 Package type: LINUX_64BITS_FEDORA_40
+00:00:00.218179 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.686347 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.729602 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:00.750233 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:00.780921 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.781536 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.782054 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.782543 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.802747 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.802764 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:00.814800 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:00.814844 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:00.815564 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:00.815573 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.816187 GUI: HID LEDs sync is not supported on this platform
+00:00:00.843986 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1440x32 x 2560x1408
+00:00:00.851420 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 0x0 x 1440x2560
+00:00:00.881660 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.898199 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:00.906624 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:00.947651 GUI: UIMachineLogic: Guest-screen count changed
+00:00:01.164270 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.375843 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.977404 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:21.254260 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:48.273787 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:13.198147 GUI: Request for close-action to power VM off.
+00:04:13.198252 GUI: Powering VM off..
+00:04:13.202903 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:04:13.216437 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:13.284192 GUI: Passing request to close Runtime UI from UI session to UI machine.
+00:04:13.285213 GUI: UICommon: Handling aboutToQuit request..
+00:04:14.701796 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:04:14.702505 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:04:14.718494 GUI: UICommon: aboutToQuit request handled!
